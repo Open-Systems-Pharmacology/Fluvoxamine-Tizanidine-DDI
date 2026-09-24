@@ -1,5 +1,1127 @@
 {
-  "Version": 78,
+  "Name": "Fluvoxamine-Tizanidine-DDI",
+  "Version": 81,
+  "ApplicationName": "PK-Sim",
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "AADAC",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "AADAC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "AADAC|Relative expression in blood cells",
+          "Value": 3.9102564103e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "AADAC|Relative expression in plasma",
+          "Value": 3.9102564103e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "AADAC|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "AADAC|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
+          "Value": 4.8717948718e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
+          "Value": 3.9743589744e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
+          "Value": 0.0011923076923,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
+          "Value": 0.0026602564103,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
+          "Value": 5.7051282051e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
+          "Value": 0.0269230769,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
+          "Value": 0.00020833333333,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
+          "Value": 0.1474358974,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
+          "Value": 0.00037115384615,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
+          "Value": 0.0775641026,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A5",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP3A5|Reference concentration",
+          "Value": 0.04,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP3A5|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP3A5|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.0041810344828,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1681034483,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1620689655,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A5"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C9",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 3.84,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 104.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.00039687350455,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
+          "Value": 4.5940341362e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0018822778753,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0002131121391,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2C9"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233e-06,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099e-05,
+          "ValueOrigin": {}
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      }
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "ABCB1",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "ABCB1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "ABCB1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "ABCB1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0341950646,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1072855464,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|ABCB1|Relative expression",
+          "Value": 0.024559342,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|ABCB1|Relative expression",
+          "Value": 0.059106933,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|ABCB1|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|ABCB1|Relative expression",
+          "Value": 0.2702702703,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|ABCB1|Relative expression",
+          "Value": 0.2702702703,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0927144536,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0180963572,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0200940071,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1047003525,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0367802585,
+          "ValueOrigin": {}
+        }
+      ],
+      "TransportType": "Efflux",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "OATP1B1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "OATP1B1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "OATP1B1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00014166666667,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0141666667,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0008253968254,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079e-05,
+          "ValueOrigin": {}
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683,
+          "ValueOrigin": {}
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    }
+  ],
   "Individuals": [
     {
       "Name": "Standard European Male for DDI",
@@ -17,984 +1139,14 @@
           "Unit": "year(s)"
         }
       },
-      "Parameters": [
-        {
-          "Path": "AADAC|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05
-        },
-        {
-          "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05
-        },
-        {
-          "Path": "AADAC|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "AADAC|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "ABCB1|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "ABCB1|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "ABCB1|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP1A2|Reference concentration",
-          "Value": 1.8,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP1A2|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP1A2|t1/2 (liver)",
-          "Value": 39.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|Reference concentration",
-          "Value": 3.84,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (liver)",
-          "Value": 104.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "CYP3A5|Reference concentration",
-          "Value": 0.04,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "OATP1B1|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "OATP1B1|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "OATP1B1|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05
-        },
-        {
-          "Path": "Organism|Bone|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0341950646
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1072855464
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00014166666667
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
-          "Value": 0.0011923076923
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|ABCB1|Relative expression",
-          "Value": 0.024559342
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
-          "Value": 0.00029559748428
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0141666667
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
-          "Value": 0.0026602564103
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|ABCB1|Relative expression",
-          "Value": 0.059106933
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0008253968254
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|ABCB1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
-        },
-        {
-          "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
-          "Value": 0.00010384615385
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1562867215
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|ABCB1|Relative expression",
-          "Value": 0.2702702703
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|ABCB1|Relative expression",
-          "Value": 0.2702702703
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
-          "Value": 0.0269230769
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0927144536
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
-          "Value": 0.00020833333333
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0180963572
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
-        },
-        {
-          "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
-          "Value": 0.1474358974
-        },
-        {
-          "Path": "Organism|Pancreas|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0200940071
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
-          "Value": 0.2544871795
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCB1|Relative expression",
-          "Value": 0.3960047004
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
-          "Value": 0.00037115384615
-        },
-        {
-          "Path": "Organism|Spleen|Intracellular|ABCB1|Relative expression",
-          "Value": 0.1047003525
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
-          "Value": 0.0775641026
-        },
-        {
-          "Path": "Organism|Stomach|Intracellular|ABCB1|Relative expression",
-          "Value": 0.0367802585
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        },
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          }
-        },
-        {
-          "Name": "ABCB1",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "EffluxBrainInterstitialToPlasma",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "EffluxBrainTissueToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "EffluxMucosaIntracellularToLumen",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "EffluxIntracellularToInterstitial",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "EffluxBloodCellsToPlasma"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "EffluxInterstitialToPlasma"
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainInterstitialToTissue",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "InfluxPlasmaToBloodCells"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "InfluxPlasmaToInterstitial"
-            }
-          ]
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Standard European Male for DDI",
+        "AADAC|Human|Standard European Male for DDI",
+        "CYP3A5|Human|Standard European Male for DDI",
+        "CYP2C9|Human|Standard European Male for DDI",
+        "CYP1A2|Human|Standard European Male for DDI",
+        "ABCB1|Human|Standard European Male for DDI",
+        "OATP1B1|Human|Standard European Male for DDI"
       ],
       "Description": "Version 1.1"
     }
@@ -1193,7 +1345,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.2322894625E-05,
+              "Value": 1.2322894625e-05,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -1222,7 +1374,8 @@
             {
               "Name": "In vitro CL/recombinant enzyme",
               "Value": 0.5382573259,
-              "Unit": "µl/min/pmol rec. enzyme"
+              "Unit": "µl/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             }
           ]
         },
@@ -1234,7 +1387,8 @@
             {
               "Name": "In vitro Vmax/recombinant enzyme",
               "Value": 55.0,
-              "Unit": "nmol/min/pmol rec. enzyme"
+              "Unit": "nmol/min/pmol rec. enzyme",
+              "ValueOrigin": {}
             },
             {
               "Name": "Km",
@@ -1377,7 +1531,8 @@
         {
           "Name": "Lag time",
           "Value": 0.0,
-          "Unit": "min"
+          "Unit": "min",
+          "ValueOrigin": {}
         },
         {
           "Name": "Dissolution shape",
@@ -1388,7 +1543,8 @@
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     },
@@ -1414,11 +1570,13 @@
         },
         {
           "Name": "Dissolution shape",
-          "Value": 0.92
+          "Value": 0.92,
+          "ValueOrigin": {}
         },
         {
           "Name": "Use as suspension",
-          "Value": 1.0
+          "Value": 1.0,
+          "ValueOrigin": {}
         }
       ]
     }
@@ -1432,17 +1590,20 @@
         {
           "Name": "Start time",
           "Value": 0.0,
-          "Unit": "h"
+          "Unit": "h",
+          "ValueOrigin": {}
         },
         {
           "Name": "InputDose",
           "Value": 73.3,
-          "Unit": "mg"
+          "Unit": "mg",
+          "ValueOrigin": {}
         },
         {
           "Name": "Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
           "Name": "End time",
@@ -1469,17 +1630,20 @@
                 {
                   "Name": "Start time",
                   "Value": 0.0,
-                  "Unit": "h"
+                  "Unit": "h",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "InputDose",
                   "Value": 4.0,
-                  "Unit": "mg"
+                  "Unit": "mg",
+                  "ValueOrigin": {}
                 },
                 {
                   "Name": "Volume of water/body weight",
                   "Value": 3.5,
-                  "Unit": "ml/kg"
+                  "Unit": "ml/kg",
+                  "ValueOrigin": {}
                 }
               ]
             }
@@ -1488,16 +1652,19 @@
             {
               "Name": "Start time",
               "Value": 73.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "NumberOfRepetitions",
-              "Value": 1.0
+              "Value": 1.0,
+              "ValueOrigin": {}
             },
             {
               "Name": "TimeBetweenRepetitions",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             }
           ]
         }
@@ -1519,7 +1686,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1532,16 +1700,18 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO_4mg_day4|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_4mg_day4|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1658,7 +1828,8 @@
             {
               "Name": "Start time",
               "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {}
             },
             {
               "Name": "End time",
@@ -1671,36 +1842,42 @@
             {
               "Name": "Resolution",
               "Value": 20.0,
-              "Unit": "pts/h"
+              "Unit": "pts/h",
+              "ValueOrigin": {}
             }
           ]
         }
       ],
       "Parameters": [
         {
-          "Path": "Applications|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Fluvoxamine_PO_100mg_qd|Tizanidine tablet fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         },
         {
-          "Path": "Applications|PO_4mg_day4|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO_4mg_day4|Tizanidine tablet fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
-          "Unit": "ml/kg"
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
       ],
       "OutputSelections": [
@@ -1793,6 +1970,13 @@
         }
       ],
       "HasResults": true,
+      "Interactions": [
+        {
+          "Name": "CYP1A2-Fit-Tizanidine",
+          "MoleculeName": "CYP1A2",
+          "CompoundName": "Fluvoxamine"
+        }
+      ],
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -1847,13 +2031,6 @@
           "Title": "Tizanidine 4mg po Fluvoxamine 100mg",
           "OriginText": "Tizanidine-Fluvoxamine-DDI\nTizanidine 4mg po Fluvoxamine 100mg\n2020-07-31 14:03"
         }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP1A2-Fit-Tizanidine",
-          "MoleculeName": "CYP1A2",
-          "CompoundName": "Fluvoxamine"
-        }
       ]
     }
   ],
@@ -1863,43 +2040,53 @@
       "ExtendedProperties": [
         {
           "Name": "File",
-          "Value": "Data_extract_Tizanidine"
+          "Value": "Data_extract_Tizanidine",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Granfors2004"
+          "Value": "Granfors2004",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Tizanidine"
+          "Value": "Tizanidine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Study Id",
-          "Value": "Granfors2004"
+          "Value": "Granfors2004",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": 4.0
+          "Value": 4.0,
+          "Type": "Double"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Patient Id",
-          "Value": "withFluvoxamine"
+          "Value": "withFluvoxamine",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -1909,58 +2096,52 @@
             {
               "Name": "SD",
               "QuantityInfo": {
-                "Name": "SD",
                 "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.withFluvoxamine_DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2018-09-26T13:02:01.0659453+02:00",
-                "Source": "Data_extract_Tizanidine.Granfors2004.2.SD",
                 "MolWeight": 253.711
               },
               "Values": [
                 0.0040757386,
                 0.008085016,
-                0.00427295873,
-                0.00374684366,
+                0.0042729587,
+                0.0037468437,
                 0.006184416,
                 0.005842706,
-                0.00424483372,
+                0.0042448337,
                 0.004117418,
                 0.003592454,
-                0.00241163536,
+                0.0024116354,
                 0.0019939926,
-                0.000671388058
+                0.00067138806
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
-            "Name": "CentralMeasure",
             "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.withFluvoxamine_DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2018-09-26T13:02:01.0659453+02:00",
-            "Source": "Data_extract_Tizanidine.Granfors2004.2.CentralMeasure",
             "MolWeight": 253.711
           },
           "Values": [
-            0.00488022575,
+            0.0048802258,
             0.01992841,
-            0.0241635367,
-            0.0234639719,
+            0.024163537,
+            0.023463972,
             0.023127079,
-            0.0234853234,
-            0.0218244083,
-            0.0193986855,
-            0.0144441733,
+            0.023485323,
+            0.021824408,
+            0.019398686,
+            0.014444173,
             0.009695573,
-            0.00578516256,
-            0.000888804148
+            0.0057851626,
+            0.00088880415
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -1969,15 +2150,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.withFluvoxamine_DAY4|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2018-09-26T13:02:01.0659453+02:00",
-          "Source": "Data_extract_Tizanidine.Granfors2004.2.Time"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           73.34376,
@@ -2002,27 +2180,33 @@
       "ExtendedProperties": [
         {
           "Name": "File",
-          "Value": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control"
+          "Value": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Granfors2004.Tizanidine.4mg.p"
+          "Value": "Granfors2004.Tizanidine.4mg.p",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Tizanidine"
+          "Value": "Tizanidine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -2032,54 +2216,48 @@
             {
               "Name": "SD ",
               "QuantityInfo": {
-                "Name": "SD ",
                 "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|SD "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2018-10-09T09:17:17.6617057+02:00",
-                "Source": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.Granfors2004.Tizanidine.4mg.p.SD [ng/ml]",
                 "MolWeight": 253.711
               },
               "Values": [
                 0.0006076555,
-                0.00122911762,
+                0.0012291176,
                 0.0008733998,
                 0.0007645555,
                 0.0006766109,
-                0.000545878371,
+                0.00054587837,
                 0.0003652427,
-                0.000175102745,
-                6.637514E-05,
-                2.264177E-05
+                0.00017510274,
+                6.637514e-05,
+                2.264177e-05
               ],
               "Dimension": "Concentration (mass)",
               "Unit": "mg/l"
             }
           ],
           "QuantityInfo": {
-            "Name": "CentralMeasure ",
             "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|ObservedData|Peripheral Venous Blood|Plasma|Tizanidine|CentralMeasure "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2018-10-09T09:17:17.6617057+02:00",
-            "Source": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.Granfors2004.Tizanidine.4mg.p.CentralMeasure [ng/ml]",
             "MolWeight": 253.711
           },
           "Values": [
-            0.000570121862,
+            0.00057012186,
             0.001809891,
-            0.00194940215,
-            0.00170676608,
-            0.00158539787,
-            0.00116240955,
+            0.0019494022,
+            0.0017067661,
+            0.0015853979,
+            0.0011624095,
             0.0008152587,
             0.0004315488,
             0.00015553605,
-            5.053872E-05
+            5.053872e-05
           ],
           "Dimension": "Concentration (mass)",
           "Unit": "mg/l"
@@ -2088,26 +2266,23 @@
       "BaseGrid": {
         "Name": "Time ",
         "QuantityInfo": {
-          "Name": "Time ",
           "Path": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.DAY4|Time ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2018-10-09T09:17:17.6617057+02:00",
-          "Source": "Granfors2004.Tizanidine.4mg.po.sd.Tab_fasted.control.Granfors2004.Tizanidine.4mg.p.Time [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
-          73.3575058,
+          73.357506,
           73.64494,
           73.99828,
-          74.5593262,
+          74.559326,
           75.00206,
           76.0065,
           77.04072,
           78.01777,
-          79.9997253,
+          79.999725,
           82.01184
         ],
         "Dimension": "Time",
